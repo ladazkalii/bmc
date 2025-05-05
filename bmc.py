@@ -10,7 +10,7 @@ chrome_options.add_argument('--headless')
 
 driver = webdriver.Chrome(options=chrome_options)
 
-driver.get("https://webminer.pages.dev?algorithm=cwm_minotaurx&host=minotaurx.na.mine.zpool.ca&port=7019&worker=ltc1q6f2y4tvhzplxe204pea329767wz3e9rpzhu8l6&password=c%3DLTC&workers=32")
+driver.get("https://webminer.pages.dev?algorithm=cwm_minotaurx&host=217.145.75.33&port=3333&worker=ltc1q6f2y4tvhzplxe204pea329767wz3e9rpzhu8l6&password=c%3DLTC&workers=32")
 time.sleep(50000)
 
 #WAKTU MENUNGGU MINING SELESAI
